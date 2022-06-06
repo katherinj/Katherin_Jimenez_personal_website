@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,47 @@
 
     <title>Katherin Jimenez Personal Website</title>
 
-    <link rel = "stylesheet" href = "./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <div id = "header"></div>
+    <div id="header">
+        <h1>Hi, my name is Katherin Jimenez, a full stack intern at CodePath's SITE</h1>
+        <p>Test</p>
+    </div>
 
-    <div id = "biography"></div>
+    <div id="biography">
+        <h1>About Me</h1>
+        <p id="bio_text">I am a student at New Jersey Institute of Technology, majoring in Computer Science. I am
+            currently interning at CodePath's Summer Internship for Tech Excellence, and I also work as a certified Pharmacy Technician.
+        </p>
 
-    <div id = "portfolio"></div>
+        <img id="bio_img" src = "./img/placeholder.png" alt = "Biography Image" title = "Biography Image">
+    </div>
+
+    <div id="portfolio">
+        <h1>Portfolio</h1>
+        <div class = "project_card" id = "pc1">
+            <h2>Light and Sound Memory Game</h2>
+            <img class = "project_img" src = "./img/Project_1_img.PNG" alt = "Light and Sound Memory Game Image" title = "Light and Sound Memory Game Image">
+            <p>Project created for SITE's Summer 2022 Prework. Players will be shown a pattern and corresponding tones will be played. The player will then
+                have to repeat the pattern correctly within the time limit. Features multiple difficulties.
+                <a href = "https://github.com/katherinj/light-sound-memory-game">Check it out on GitHub!</a>
+            </p>
+        </div>
+        <div class = "project_card" id = "pc2">
+            <h2>Future Project</h2>
+            <img class = "project_img" src = "./img/placeholder.png" alt = "Placeholder" title = "Placeholder">
+            <p>Placeholder</p>
+        </div>
+        <div class = "project_card" id = "pc3">
+            <h2>Future Project</h2>
+            <img class = "project_img" src = "./img/placeholder.png" alt = "Placeholder" title = "Placeholder">
+            <p>Placeholder</p>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
+
 </html>
