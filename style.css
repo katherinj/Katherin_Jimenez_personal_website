@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+
+}
+
+p {
+    /*1 font size */
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    margin-top: 0.83em;
+margin-bottom: 0.83em;
+}
+
+h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 216, 222, 1) 100%);
+}
+
+#header {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#header_text_wrapper {
+    padding: 10px 10px;
+}
+
+#biography {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#bio_text_wrapper {
+    padding: 10px 10px;
+    float: left;
+    width: 50%;
+}
+
+#bio_img_wrapper {
+    float: left;
+    width: auto;
+}
+
+#bio_img {
+    padding: 10px 10px;
+    width: 80%;
+    height: auto;
+    border-radius: 25%;
+}
+
+#portfolio {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+#portfolio_text_wrapper {
+    padding: 10px 10px;
+}
+
+#project_card_wrapper {
+    display:flex;
+}
+
+.project_card {
+    float: left;
+    width: 32%;
+    padding: 0px 10px;
+}
+
+.project_img {
+    margin: 0 auto;
+    width: 100%;
+}
